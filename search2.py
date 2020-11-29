@@ -12,6 +12,9 @@ def search():
     flag = word in source
     if flag == 1:
         print("{}が見つかりました".format(word))
+    #存在しなかった場合
+    else:
+        print("{}は見つかりませんでした".format(word))
 
 if __name__ == "__main__":
     search()
